@@ -1,0 +1,30 @@
+
+
+#pic_wrapper ul{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#pic_wrapper .quote_box{
+	display: inline-block;
+	width:200px;
+	height: 300px;
+	margin: 10px;
+    overflow: hidden;
+    border: 2px solid #E9E9E9;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+#pic_wrapper .quote_box .quotes{
+	font-size: 30px;
+	font-family: Courier;
+	color: red;
+	line-height: 20px;
+}
+
+#pic_wrapper .quote_box h3{
+	font-size: 15px;
+	line-height: 28px;
+	color: #323232;
+}
