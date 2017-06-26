@@ -1,3 +1,19 @@
-body{
-	background: green!important;
+// Add Eric Meyer's Reset
+@import "../node_modules/reset-scss/reset.scss";
+// Add Variables
+@import "_variables";
+
+html{
+	color: $color_text;
+    font-size: 13px;
+    line-height: 1.4;
+
+    header{
+    	position: fixed;
+    	top: 0px;
+    	overflow: hidden;
+    	width: 100%;
+    	z-index: 10;
+    	box-shadow: 0px 1px 7px 0px rgba(26,25,26,1);
+    }
 }
