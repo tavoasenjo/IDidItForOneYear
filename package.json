@@ -11,6 +11,7 @@
     "url": "https://github.com/tavoasenjo/IdidItForOneYear.git"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "reset-scss": "^1.0.0"
